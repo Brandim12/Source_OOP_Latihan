@@ -1,10 +1,10 @@
 package Eksekusi;
-
 import java.util.Scanner;
+
 public class mesin_minum {
     public static void main(String[] args) {
         int minuman;
-        Scanner input = new Scanner();
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Pilih minuman: ");
         minuman = input.nextInt();
